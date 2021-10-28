@@ -1,18 +1,46 @@
-## Team 2
+# Team 3
+
+Team 3 consists of Hazel, Jose and Eero
+
+The task is to predict the sales of Rossmann stores 6 weeks ahead.
+But is it a daily sale, or are we better of with a weekly sales?
+For planning purposes the Rossmann administration does probably not care about daily sales.  They need rather to plan stock and logistics, which might be better done on a weekly level.
+
+### Data
+Data is the Rossmann data from Kaggle, which contains daily sales figures for 1115 stores in the period 2011 to 2015. 
+
+### Our Model
+Describe our model
 
 
-In Terminal
-: Create environment: 
+
+
+## Getting started
+```bash
+# Create environment for running the model in: 
 Conda create --name "Team3" python=3.8
-:Use environment
+# Use environment
 Conda activate Team3
 
-Create a folder of your choice for the files
+## In a folder of your choice
+# create a subdirectory and copy the materials needed
+git clone git@github.com:eeroolli/RossmanCompetitionTEAM3.git
 
-run
-git clone https://github.com/eeroolli/DSRcompetitionTEAM2.git 
+cd RossmannCompetitionTEAM3.git
 
-go the new created folder:
-run python data.py
+# The data needs to be unpacked
+# for the training and validation data
+python data.py  
 
-For more help for the setup read readme_competition.md
+#  at test time run to use the test data instead
+python data.py --test 1  
+```
+
+## Model
+
+
+
+## Help
+For more help and information, please consult the read readme_competition.md
+
+
