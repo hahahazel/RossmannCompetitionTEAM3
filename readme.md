@@ -2,6 +2,7 @@
 
 Team 3 consists of Hazel, Jose and Eero
 
+<<<<<<< HEAD
 The task is to predict the sales of Rossmann stores 6 weeks ahead.
 But is it a daily sale, or are we better of with a weekly sales?
 For planning purposes the Rossmann administration does probably not care about daily sales.  They need rather to plan stock and logistics, which might be better done on a weekly level.
@@ -18,9 +19,14 @@ Describe our model
 ## Getting started
 ```bash
 # Create environment for running the model in: 
+=======
+'''bash
+: Create environment: 
+>>>>>>> 7e02999594061934151052efb85742e56ba87788
 Conda create --name "Team3" python=3.8
 # Use environment
 Conda activate Team3
+'''
 
 ## In a folder of your choice
 # create a subdirectory and copy the materials needed
@@ -40,7 +46,12 @@ python data.py --test 1
 
 
 
+<<<<<<< HEAD
 ## Help
 For more help and information, please consult the read readme_competition.md
+=======
+run
+git clone https://github.com/eeroolli/RossmannCompetitionTEAM3.git
+>>>>>>> 7e02999594061934151052efb85742e56ba87788
 
 
